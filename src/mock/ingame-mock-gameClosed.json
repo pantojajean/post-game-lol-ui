@@ -1,0 +1,16 @@
+{
+    "type": "ingame-state-update",
+    "state": {
+      "gameTime": 0,
+      "patch": null,
+      "gameVersion": null,
+      "gameStatus": "gameClosed",
+      "scoreboard": null,
+      "tabs": null,
+      "scoreboardBottom": null,
+      "baronPitTimer": null,
+      "atakhanTimer": null,
+      "dragonPitTimer": null,
+      "inhibitors": null
+    }
+  }

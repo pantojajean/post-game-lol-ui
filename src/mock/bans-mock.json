@@ -1,0 +1,1235 @@
+{
+    "type": "champion-select-state-update",
+    "state": {
+      "isActive": true,
+      "isConnected": true,
+      "isTestingEnvironment": true,
+      "blueTeam": {
+        "metaData": {
+          "members": [
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "BluePlayer1",
+              "puuid": "00000000-0000-0000-0000-000000000001",
+              "isActive": true,
+              "tag": "BLUE",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Blue",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "BluePlayer2",
+              "puuid": "00000000-0000-0000-0000-000000000002",
+              "isActive": true,
+              "tag": "BLUE",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Blue",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "BluePlayer3",
+              "puuid": "00000000-0000-0000-0000-000000000003",
+              "isActive": true,
+              "tag": "BLUE",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Blue",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "BluePlayer4",
+              "puuid": "00000000-0000-0000-0000-000000000004",
+              "isActive": true,
+              "tag": "BLUE",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Blue",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "BluePlayer5",
+              "puuid": "00000000-0000-0000-0000-000000000005",
+              "isActive": true,
+              "tag": "BLUE",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Blue",
+              "givenName": "Player"
+            }
+          ],
+          "teamId": 4294967293,
+          "name": "Blue Team",
+          "tag": "BLUE",
+          "iconUri": null,
+          "isActive": true,
+          "primaryColor": "#0000FFFF",
+          "secondaryColor": "#FFFFFFFF",
+          "tertiaryColor": "#000000FF",
+          "backgroundColor": "#000000FF"
+        },
+        "bans": [
+          {
+            "isActive": false,
+            "champion": {
+              "id": 895,
+              "alias": "Nilah",
+              "name": "Nilah",
+              "attackSpeed": 0.697,
+              "splashCenteredImg": "cache/game/15.2/champion/Nilah/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Nilah/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Nilah/loading.png",
+              "squareImg": "cache/game/15.2/champion/Nilah/square.png",
+              "spells": [
+                {
+                  "spellName": "NilahW",
+                  "iconAsset": "cache/game/15.2/champion/Nilah/abilities/nilahw.png",
+                  "iconName": "nilahw.png"
+                },
+                {
+                  "spellName": "NilahQ",
+                  "iconAsset": "cache/game/15.2/champion/Nilah/abilities/nilahq.png",
+                  "iconName": "nilahq.png"
+                },
+                {
+                  "spellName": "NilahE",
+                  "iconAsset": "cache/game/15.2/champion/Nilah/abilities/nilahe.png",
+                  "iconName": "nilahe.png"
+                },
+                {
+                  "spellName": "NilahR",
+                  "iconAsset": "cache/game/15.2/champion/Nilah/abilities/nilahr.png",
+                  "iconName": "nilahr.png"
+                },
+                {
+                  "spellName": "NilahPassive",
+                  "iconAsset": "cache/game/15.2/champion/Nilah/abilities/nilahp.png",
+                  "iconName": "nilahp.png",
+                  "isPassive": true
+                }
+              ]
+            }
+          },
+          {
+            "isActive": true,
+            "champion": null
+          },
+          {
+            "isActive": false,
+            "champion": null
+          },
+          {
+            "isActive": false,
+            "champion": null
+          },
+          {
+            "isActive": false,
+            "champion": null
+          }
+        ],
+        "slots": [
+          {
+            "id": 1,
+            "isActive": true,
+            "player": "00000000-0000-0000-0000-000000000001",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "6243",
+                "spellIcon": "6243.png",
+                "localAsset": "cache/game/15.2/summoner/6243.png"
+              },
+              {
+                "id": -1,
+                "name": "ultbook_renata_square",
+                "spellIcon": "ultbook_renata_square.png",
+                "localAsset": "cache/game/15.2/summoner/ultbook_renata_square.png"
+              }
+            ],
+            "champion": {
+              "id": 888,
+              "alias": "Renata",
+              "name": "Renata Glasc",
+              "attackSpeed": 0.625,
+              "splashCenteredImg": "cache/game/15.2/champion/Renata/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Renata/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Renata/loading.png",
+              "squareImg": "cache/game/15.2/champion/Renata/square.png",
+              "spells": [
+                {
+                  "spellName": "RenataQ",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_q.png",
+                  "iconName": "renata_q.png"
+                },
+                {
+                  "spellName": "RenataQRecast",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_q2.png",
+                  "iconName": "renata_q2.png"
+                },
+                {
+                  "spellName": "RenataW",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_w.png",
+                  "iconName": "renata_w.png"
+                },
+                {
+                  "spellName": "RenataE",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_e.png",
+                  "iconName": "renata_e.png"
+                },
+                {
+                  "spellName": "RenataR",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_r.png",
+                  "iconName": "renata_r.png"
+                },
+                {
+                  "spellName": "RenataRDebuff",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_r.png",
+                  "iconName": "renata_r.png"
+                },
+                {
+                  "spellName": "RenataPassive",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_p.png",
+                  "iconName": "renata_p.png",
+                  "isPassive": true
+                },
+                {
+                  "spellName": "RenataPassiveDebuff",
+                  "iconAsset": "cache/game/15.2/champion/Renata/abilities/renata_p.png",
+                  "iconName": "renata_p.png",
+                  "isPassive": true
+                }
+              ]
+            },
+            "championStatistics": null
+          },
+          {
+            "id": 2,
+            "isActive": true,
+            "player": "00000000-0000-0000-0000-000000000002",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "moveaway",
+                "spellIcon": "moveaway.png",
+                "localAsset": "cache/game/15.2/summoner/moveaway.png"
+              },
+              {
+                "id": -1,
+                "name": "ultbook_gwen_r2",
+                "spellIcon": "ultbook_gwen_r2.png",
+                "localAsset": "cache/game/15.2/summoner/ultbook_gwen_r2.gwen.png"
+              }
+            ],
+            "champion": {
+              "id": 421,
+              "alias": "RekSai",
+              "name": "Rek\u0027Sai",
+              "attackSpeed": 0.667,
+              "splashCenteredImg": "cache/game/15.2/champion/RekSai/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/RekSai/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/RekSai/loading.png",
+              "squareImg": "cache/game/15.2/champion/RekSai/square.png",
+              "spells": [
+                {
+                  "spellName": "RekSaiQ",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_q1.png",
+                  "iconName": "reksai_q1.png"
+                },
+                {
+                  "spellName": "RekSaiQSpellPassive",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_q1.png",
+                  "iconName": "reksai_q1.png"
+                },
+                {
+                  "spellName": "RekSaiW",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_w1.png",
+                  "iconName": "reksai_w1.png"
+                },
+                {
+                  "spellName": "RekSaiWSpellPassive",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_w1.png",
+                  "iconName": "reksai_w1.png"
+                },
+                {
+                  "spellName": "RekSaiE",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_e1.png",
+                  "iconName": "reksai_e1.png"
+                },
+                {
+                  "spellName": "RekSaiESpellPassive",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_e1.png",
+                  "iconName": "reksai_e1.png"
+                },
+                {
+                  "spellName": "RekSaiRWrapper",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_r.png",
+                  "iconName": "reksai_r.png"
+                },
+                {
+                  "spellName": "RekSaiR",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_r.png",
+                  "iconName": "reksai_r.png"
+                },
+                {
+                  "spellName": "RekSaiR2",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_r.png",
+                  "iconName": "reksai_r.png"
+                },
+                {
+                  "spellName": "RekSaiPassive",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_passive.png",
+                  "iconName": "reksai_passive.png",
+                  "isPassive": true
+                },
+                {
+                  "spellName": "RekSaiQBurrowed",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_q2.png",
+                  "iconName": "reksai_q2.png"
+                },
+                {
+                  "spellName": "RekSaiEBurrowed",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_e2.png",
+                  "iconName": "reksai_e2.png"
+                },
+                {
+                  "spellName": "RekSaiWBurrowed",
+                  "iconAsset": "cache/game/15.2/champion/RekSai/abilities/reksai_w2.png",
+                  "iconName": "reksai_w2.png"
+                }
+              ]
+            },
+            "championStatistics": null
+          },
+          {
+            "id": 3,
+            "isActive": false,
+            "player": "00000000-0000-0000-0000-000000000003",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "relicyellowward",
+                "spellIcon": "relicyellowward.png",
+                "localAsset": "cache/game/15.2/summoner/relicyellowward.png"
+              },
+              {
+                "id": -1,
+                "name": "ultbook_chogathr",
+                "spellIcon": "ultbook_chogathr.png",
+                "localAsset": "cache/game/15.2/summoner/ultbook_chogathr.png"
+              }
+            ],
+            "champion": {
+              "id": 897,
+              "alias": "KSante",
+              "name": "K\u0027Sante",
+              "attackSpeed": 0.688,
+              "splashCenteredImg": "cache/game/15.2/champion/KSante/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/KSante/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/KSante/loading.png",
+              "squareImg": "cache/game/15.2/champion/KSante/square.png",
+              "spells": [
+                {
+                  "spellName": "KSanteQ",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_q1.png",
+                  "iconName": "icons_ksante_q1.png"
+                },
+                {
+                  "spellName": "KSanteQ3",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_q3.png",
+                  "iconName": "icons_ksante_q3.png"
+                },
+                {
+                  "spellName": "KSanteQ3Missile",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/ornnq.png",
+                  "iconName": "ornnq.png"
+                },
+                {
+                  "spellName": "KSanteE",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_e.png",
+                  "iconName": "icons_ksante_e.png"
+                },
+                {
+                  "spellName": "KSanteEAllyDash",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_e.png",
+                  "iconName": "icons_ksante_e.png"
+                },
+                {
+                  "spellName": "KSanteP",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_p.png",
+                  "iconName": "icons_ksante_p.png",
+                  "isPassive": true
+                },
+                {
+                  "spellName": "KSanteR",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_r1.png",
+                  "iconName": "icons_ksante_r1.png"
+                },
+                {
+                  "spellName": "KSanteREndEarly",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_r2.png",
+                  "iconName": "icons_ksante_r2.png"
+                },
+                {
+                  "spellName": "KSanteW",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_w.png",
+                  "iconName": "icons_ksante_w.png"
+                }
+              ]
+            },
+            "championStatistics": null
+          },
+          {
+            "id": 4,
+            "isActive": false,
+            "player": "00000000-0000-0000-0000-000000000004",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "siegedefenseboardsweepshot",
+                "spellIcon": "siegedefenseboardsweepshot.png",
+                "localAsset": "cache/game/15.2/summoner/siegedefenseboardsweepshot.png"
+              },
+              {
+                "id": -1,
+                "name": "zyrar",
+                "spellIcon": "zyrar.png",
+                "localAsset": "cache/game/15.2/summoner/zyrar.png"
+              }
+            ],
+            "champion": null,
+            "championStatistics": null
+          },
+          {
+            "id": 5,
+            "isActive": false,
+            "player": "00000000-0000-0000-0000-000000000005",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "29",
+                "spellIcon": "29.png",
+                "localAsset": "cache/game/15.2/summoner/29.png"
+              },
+              {
+                "id": -1,
+                "name": "2047_oraclesextract",
+                "spellIcon": "2047_oraclesextract.png",
+                "localAsset": "cache/game/15.2/summoner/2047_oraclesextract.png"
+              }
+            ],
+            "champion": null,
+            "championStatistics": null
+          }
+        ],
+        "timeline": [],
+        "index": 1,
+        "scoreMatch": {
+          "wins": 3,
+          "losses": 1
+        },
+        "scoreSeason": {
+          "wins": 0,
+          "losses": 0
+        },
+        "fearlessBans": {
+          "0": [
+            {
+              "id": 81,
+              "alias": "Ezreal",
+              "name": "Ezreal",
+              "splashCenteredImg": "cache/game/15.2/champion/Ezreal/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ezreal/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ezreal/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ezreal/square.png"
+            },
+            {
+              "id": 106,
+              "alias": "Volibear",
+              "name": "Volibear",
+              "splashCenteredImg": "cache/game/15.2/champion/Volibear/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Volibear/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Volibear/loading.png",
+              "squareImg": "cache/game/15.2/champion/Volibear/square.png"
+            },
+            {
+              "id": 910,
+              "alias": "Hwei",
+              "name": "Hwei",
+              "splashCenteredImg": "cache/game/15.2/champion/Hwei/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Hwei/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Hwei/loading.png",
+              "squareImg": "cache/game/15.2/champion/Hwei/square.png"
+            },
+            {
+              "id": 60,
+              "alias": "Elise",
+              "name": "Elise",
+              "splashCenteredImg": "cache/game/15.2/champion/Elise/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Elise/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Elise/loading.png",
+              "squareImg": "cache/game/15.2/champion/Elise/square.png"
+            },
+            {
+              "id": 876,
+              "alias": "Lillia",
+              "name": "Lillia",
+              "splashCenteredImg": "cache/game/15.2/champion/Lillia/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Lillia/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Lillia/loading.png",
+              "squareImg": "cache/game/15.2/champion/Lillia/square.png"
+            }
+          ],
+          "1": [
+            {
+              "id": 7,
+              "alias": "Leblanc",
+              "name": "LeBlanc",
+              "splashCenteredImg": "cache/game/15.2/champion/Leblanc/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Leblanc/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Leblanc/loading.png",
+              "squareImg": "cache/game/15.2/champion/Leblanc/square.png"
+            },
+            {
+              "id": 267,
+              "alias": "Nami",
+              "name": "Nami",
+              "splashCenteredImg": "cache/game/15.2/champion/Nami/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Nami/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Nami/loading.png",
+              "squareImg": "cache/game/15.2/champion/Nami/square.png"
+            },
+            {
+              "id": 54,
+              "alias": "Malphite",
+              "name": "Malphite",
+              "splashCenteredImg": "cache/game/15.2/champion/Malphite/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Malphite/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Malphite/loading.png",
+              "squareImg": "cache/game/15.2/champion/Malphite/square.png"
+            },
+            {
+              "id": 799,
+              "alias": "Ambessa",
+              "name": "Ambessa",
+              "splashCenteredImg": "cache/game/15.2/champion/Ambessa/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ambessa/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ambessa/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ambessa/square.png"
+            },
+            {
+              "id": 63,
+              "alias": "Brand",
+              "name": "Brand",
+              "splashCenteredImg": "cache/game/15.2/champion/Brand/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Brand/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Brand/loading.png",
+              "squareImg": "cache/game/15.2/champion/Brand/square.png"
+            }
+          ],
+          "2": [
+            {
+              "id": 103,
+              "alias": "Ahri",
+              "name": "Ahri",
+              "splashCenteredImg": "cache/game/15.2/champion/Ahri/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ahri/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ahri/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ahri/square.png"
+            },
+            {
+              "id": 245,
+              "alias": "Ekko",
+              "name": "Ekko",
+              "splashCenteredImg": "cache/game/15.2/champion/Ekko/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ekko/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ekko/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ekko/square.png"
+            },
+            {
+              "id": 36,
+              "alias": "DrMundo",
+              "name": "Dr. Mundo",
+              "splashCenteredImg": "cache/game/15.2/champion/DrMundo/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/DrMundo/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/DrMundo/loading.png",
+              "squareImg": "cache/game/15.2/champion/DrMundo/square.png"
+            },
+            {
+              "id": 143,
+              "alias": "Zyra",
+              "name": "Zyra",
+              "splashCenteredImg": "cache/game/15.2/champion/Zyra/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Zyra/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Zyra/loading.png",
+              "squareImg": "cache/game/15.2/champion/Zyra/square.png"
+            },
+            {
+              "id": 57,
+              "alias": "Maokai",
+              "name": "Maokai",
+              "splashCenteredImg": "cache/game/15.2/champion/Maokai/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Maokai/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Maokai/loading.png",
+              "squareImg": "cache/game/15.2/champion/Maokai/square.png"
+            }
+          ],
+          "3": [
+            {
+              "id": 236,
+              "alias": "Lucian",
+              "name": "Lucian",
+              "splashCenteredImg": "cache/game/15.2/champion/Lucian/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Lucian/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Lucian/loading.png",
+              "squareImg": "cache/game/15.2/champion/Lucian/square.png"
+            },
+            {
+              "id": 163,
+              "alias": "Taliyah",
+              "name": "Taliyah",
+              "splashCenteredImg": "cache/game/15.2/champion/Taliyah/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Taliyah/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Taliyah/loading.png",
+              "squareImg": "cache/game/15.2/champion/Taliyah/square.png"
+            },
+            {
+              "id": 69,
+              "alias": "Cassiopeia",
+              "name": "Cassiopeia",
+              "splashCenteredImg": "cache/game/15.2/champion/Cassiopeia/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Cassiopeia/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Cassiopeia/loading.png",
+              "squareImg": "cache/game/15.2/champion/Cassiopeia/square.png"
+            },
+            {
+              "id": 12,
+              "alias": "Alistar",
+              "name": "Alistar",
+              "splashCenteredImg": "cache/game/15.2/champion/Alistar/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Alistar/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Alistar/loading.png",
+              "squareImg": "cache/game/15.2/champion/Alistar/square.png"
+            },
+            {
+              "id": 114,
+              "alias": "Fiora",
+              "name": "Fiora",
+              "splashCenteredImg": "cache/game/15.2/champion/Fiora/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Fiora/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Fiora/loading.png",
+              "squareImg": "cache/game/15.2/champion/Fiora/square.png"
+            }
+          ]
+        }
+      },
+      "redTeam": {
+        "metaData": {
+          "members": [
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "RedPlayer1",
+              "puuid": "00000000-0000-0000-0000-000000000011",
+              "isActive": true,
+              "tag": "Red",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Red",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "RedPlayer2",
+              "puuid": "00000000-0000-0000-0000-000000000012",
+              "isActive": true,
+              "tag": "Red",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Red",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "RedPlayer3",
+              "puuid": "00000000-0000-0000-0000-000000000013",
+              "isActive": true,
+              "tag": "Red",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Red",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "RedPlayer4",
+              "puuid": "00000000-0000-0000-0000-000000000014",
+              "isActive": true,
+              "tag": "Red",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Red",
+              "givenName": "Player"
+            },
+            {
+              "memberId": 0,
+              "teamId": 4294967293,
+              "alias": "RedPlayer5",
+              "puuid": "00000000-0000-0000-0000-000000000015",
+              "isActive": true,
+              "tag": "Red",
+              "iconUri": null,
+              "role": "Player",
+              "familyName": "Red",
+              "givenName": "Player"
+            }
+          ],
+          "teamId": 4294967294,
+          "name": "Red Team",
+          "tag": "RED",
+          "iconUri": null,
+          "isActive": true,
+          "primaryColor": "#FF0000FF",
+          "secondaryColor": "#FFFFFFFF",
+          "tertiaryColor": "#000000FF",
+          "backgroundColor": "#000000FF"
+        },
+        "bans": [
+          {
+            "isActive": false,
+            "champion": {
+              "id": 75,
+              "alias": "Nasus",
+              "name": "Nasus",
+              "attackSpeed": 0.638,
+              "splashCenteredImg": "cache/game/15.2/champion/Nasus/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Nasus/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Nasus/loading.png",
+              "squareImg": "cache/game/15.2/champion/Nasus/square.png",
+              "spells": [
+                {
+                  "spellName": "NasusQ",
+                  "iconAsset": "cache/game/15.2/champion/Nasus/abilities/nasus_q.png",
+                  "iconName": "nasus_q.png"
+                },
+                {
+                  "spellName": "NasusW",
+                  "iconAsset": "cache/game/15.2/champion/Nasus/abilities/nasus_w.png",
+                  "iconName": "nasus_w.png"
+                },
+                {
+                  "spellName": "NasusE",
+                  "iconAsset": "cache/game/15.2/champion/Nasus/abilities/nasus_e.png",
+                  "iconName": "nasus_e.png"
+                },
+                {
+                  "spellName": "NasusR",
+                  "iconAsset": "cache/game/15.2/champion/Nasus/abilities/nasus_r.png",
+                  "iconName": "nasus_r.png"
+                },
+                {
+                  "spellName": "NasusPassive",
+                  "iconAsset": "cache/game/15.2/champion/Nasus/abilities/nasus_passive.png",
+                  "iconName": "nasus_passive.png",
+                  "isPassive": true
+                }
+              ]
+            }
+          },
+          {
+            "isActive": true,
+            "champion": null
+          },
+          {
+            "isActive": false,
+            "champion": null
+          },
+          {
+            "isActive": false,
+            "champion": null
+          },
+          {
+            "isActive": false,
+            "champion": null
+          }
+        ],
+        "slots": [
+          {
+            "id": 1,
+            "isActive": true,
+            "player": "00000000-0000-0000-0000-000000000011",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "gw_debuff",
+                "spellIcon": "gw_debuff.png",
+                "localAsset": "cache/game/15.2/summoner/gw_debuff.png"
+              },
+              {
+                "id": -1,
+                "name": "superminionbuff_red",
+                "spellIcon": "superminionbuff_red.png",
+                "localAsset": "cache/game/15.2/summoner/superminionbuff_red.png"
+              }
+            ],
+            "champion": {
+              "id": 897,
+              "alias": "KSante",
+              "name": "K\u0027Sante",
+              "attackSpeed": 0.688,
+              "splashCenteredImg": "cache/game/15.2/champion/KSante/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/KSante/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/KSante/loading.png",
+              "squareImg": "cache/game/15.2/champion/KSante/square.png",
+              "spells": [
+                {
+                  "spellName": "KSanteQ",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_q1.png",
+                  "iconName": "icons_ksante_q1.png"
+                },
+                {
+                  "spellName": "KSanteQ3",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_q3.png",
+                  "iconName": "icons_ksante_q3.png"
+                },
+                {
+                  "spellName": "KSanteQ3Missile",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/ornnq.png",
+                  "iconName": "ornnq.png"
+                },
+                {
+                  "spellName": "KSanteE",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_e.png",
+                  "iconName": "icons_ksante_e.png"
+                },
+                {
+                  "spellName": "KSanteEAllyDash",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_e.png",
+                  "iconName": "icons_ksante_e.png"
+                },
+                {
+                  "spellName": "KSanteP",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_p.png",
+                  "iconName": "icons_ksante_p.png",
+                  "isPassive": true
+                },
+                {
+                  "spellName": "KSanteR",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_r1.png",
+                  "iconName": "icons_ksante_r1.png"
+                },
+                {
+                  "spellName": "KSanteREndEarly",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_r2.png",
+                  "iconName": "icons_ksante_r2.png"
+                },
+                {
+                  "spellName": "KSanteW",
+                  "iconAsset": "cache/game/15.2/champion/KSante/abilities/icons_ksante_w.png",
+                  "iconName": "icons_ksante_w.png"
+                }
+              ]
+            },
+            "championStatistics": null
+          },
+          {
+            "id": 2,
+            "isActive": true,
+            "player": "00000000-0000-0000-0000-000000000012",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "37",
+                "spellIcon": "37.png",
+                "localAsset": "cache/game/15.2/summoner/37.png"
+              },
+              {
+                "id": -1,
+                "name": "ultbook_ryze_square_0",
+                "spellIcon": "ultbook_ryze_square_0.png",
+                "localAsset": "cache/game/15.2/summoner/ultbook_ryze_square_0.png"
+              }
+            ],
+            "champion": {
+              "id": 245,
+              "alias": "Ekko",
+              "name": "Ekko",
+              "attackSpeed": 0.688,
+              "splashCenteredImg": "cache/game/15.2/champion/Ekko/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ekko/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ekko/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ekko/square.png",
+              "spells": [
+                {
+                  "spellName": "EkkoQ",
+                  "iconAsset": "cache/game/15.2/champion/Ekko/abilities/ekko_q.png",
+                  "iconName": "ekko_q.png"
+                },
+                {
+                  "spellName": "EkkoW",
+                  "iconAsset": "cache/game/15.2/champion/Ekko/abilities/ekko_w.png",
+                  "iconName": "ekko_w.png"
+                },
+                {
+                  "spellName": "EkkoWPassive",
+                  "iconAsset": "cache/game/15.2/champion/Ekko/abilities/ekko_w.png",
+                  "iconName": "ekko_w.png"
+                },
+                {
+                  "spellName": "EkkoE",
+                  "iconAsset": "cache/game/15.2/champion/Ekko/abilities/ekko_e.png",
+                  "iconName": "ekko_e.png"
+                },
+                {
+                  "spellName": "EkkoR",
+                  "iconAsset": "cache/game/15.2/champion/Ekko/abilities/ekko_r.png",
+                  "iconName": "ekko_r.png"
+                },
+                {
+                  "spellName": "EkkoPassive",
+                  "iconAsset": "cache/game/15.2/champion/Ekko/abilities/ekko_p.png",
+                  "iconName": "ekko_p.png",
+                  "isPassive": true
+                }
+              ]
+            },
+            "championStatistics": null
+          },
+          {
+            "id": 3,
+            "isActive": false,
+            "player": "00000000-0000-0000-0000-000000000013",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "buff_devourer",
+                "spellIcon": "buff_devourer.png",
+                "localAsset": "cache/game/15.2/summoner/buff_devourer.png"
+              },
+              {
+                "id": -1,
+                "name": "10",
+                "spellIcon": "10.png",
+                "localAsset": "cache/game/15.2/summoner/10.png"
+              }
+            ],
+            "champion": {
+              "id": 42,
+              "alias": "Corki",
+              "name": "Corki",
+              "attackSpeed": 0.644,
+              "splashCenteredImg": "cache/game/15.2/champion/Corki/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Corki/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Corki/loading.png",
+              "squareImg": "cache/game/15.2/champion/Corki/square.png",
+              "spells": [
+                {
+                  "spellName": "PhosphorusBomb",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_phosphorusbomb.png",
+                  "iconName": "corki_phosphorusbomb.png"
+                },
+                {
+                  "spellName": "PhosphorusBombMissile",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_phosphorusbomb.png",
+                  "iconName": "corki_phosphorusbomb.png"
+                },
+                {
+                  "spellName": "PhosphorusBombMissileMin",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_phosphorusbomb.png",
+                  "iconName": "corki_phosphorusbomb.png"
+                },
+                {
+                  "spellName": "CarpetBomb",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_valkyrie.png",
+                  "iconName": "corki_valkyrie.png"
+                },
+                {
+                  "spellName": "GGun",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_gatlinggun.png",
+                  "iconName": "corki_gatlinggun.png"
+                },
+                {
+                  "spellName": "MissileBarrage",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_missilebarrage.png",
+                  "iconName": "corki_missilebarrage.png"
+                },
+                {
+                  "spellName": "RapidReload",
+                  "iconAsset": "cache/game/15.2/champion/Corki/abilities/corki_rapidreload.png",
+                  "iconName": "corki_rapidreload.png",
+                  "isPassive": true
+                }
+              ]
+            },
+            "championStatistics": null
+          },
+          {
+            "id": 4,
+            "isActive": false,
+            "player": "00000000-0000-0000-0000-000000000014",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "ultbook_talon_square_0",
+                "spellIcon": "ultbook_talon_square_0.png",
+                "localAsset": "cache/game/15.2/summoner/ultbook_talon_square_0.png"
+              },
+              {
+                "id": -1,
+                "name": "odyssey_sharedbuff_elites",
+                "spellIcon": "odyssey_sharedbuff_elites.png",
+                "localAsset": "cache/game/15.2/summoner/odyssey_sharedbuff_elites.png"
+              }
+            ],
+            "champion": null,
+            "championStatistics": null
+          },
+          {
+            "id": 5,
+            "isActive": false,
+            "player": "00000000-0000-0000-0000-000000000015",
+            "summonerSpells": [
+              {
+                "id": -1,
+                "name": "dragonbuffearth",
+                "spellIcon": "dragonbuffearth.png",
+                "localAsset": "cache/game/15.2/summoner/dragonbuffearth.png"
+              },
+              {
+                "id": -1,
+                "name": "ultbook_lucian_square",
+                "spellIcon": "ultbook_lucian_square.png",
+                "localAsset": "cache/game/15.2/summoner/ultbook_lucian_square.png"
+              }
+            ],
+            "champion": null,
+            "championStatistics": null
+          }
+        ],
+        "timeline": [],
+        "index": 1,
+        "scoreMatch": {
+          "wins": 1,
+          "losses": 1
+        },
+        "scoreSeason": {
+          "wins": 0,
+          "losses": 0
+        },
+        "fearlessBans": {
+          "0": [
+            {
+              "id": 555,
+              "alias": "Pyke",
+              "name": "Pyke",
+              "splashCenteredImg": "cache/game/15.2/champion/Pyke/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Pyke/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Pyke/loading.png",
+              "squareImg": "cache/game/15.2/champion/Pyke/square.png"
+            },
+            {
+              "id": 41,
+              "alias": "Gangplank",
+              "name": "Gangplank",
+              "splashCenteredImg": "cache/game/15.2/champion/Gangplank/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Gangplank/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Gangplank/loading.png",
+              "squareImg": "cache/game/15.2/champion/Gangplank/square.png"
+            },
+            {
+              "id": 48,
+              "alias": "Trundle",
+              "name": "Trundle",
+              "splashCenteredImg": "cache/game/15.2/champion/Trundle/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Trundle/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Trundle/loading.png",
+              "squareImg": "cache/game/15.2/champion/Trundle/square.png"
+            },
+            {
+              "id": 895,
+              "alias": "Nilah",
+              "name": "Nilah",
+              "splashCenteredImg": "cache/game/15.2/champion/Nilah/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Nilah/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Nilah/loading.png",
+              "squareImg": "cache/game/15.2/champion/Nilah/square.png"
+            },
+            {
+              "id": 360,
+              "alias": "Samira",
+              "name": "Samira",
+              "splashCenteredImg": "cache/game/15.2/champion/Samira/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Samira/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Samira/loading.png",
+              "squareImg": "cache/game/15.2/champion/Samira/square.png"
+            }
+          ],
+          "1": [
+            {
+              "id": 50,
+              "alias": "Swain",
+              "name": "Swain",
+              "splashCenteredImg": "cache/game/15.2/champion/Swain/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Swain/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Swain/loading.png",
+              "squareImg": "cache/game/15.2/champion/Swain/square.png"
+            },
+            {
+              "id": 53,
+              "alias": "Blitzcrank",
+              "name": "Blitzcrank",
+              "splashCenteredImg": "cache/game/15.2/champion/Blitzcrank/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Blitzcrank/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Blitzcrank/loading.png",
+              "squareImg": "cache/game/15.2/champion/Blitzcrank/square.png"
+            },
+            {
+              "id": 60,
+              "alias": "Elise",
+              "name": "Elise",
+              "splashCenteredImg": "cache/game/15.2/champion/Elise/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Elise/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Elise/loading.png",
+              "squareImg": "cache/game/15.2/champion/Elise/square.png"
+            },
+            {
+              "id": 163,
+              "alias": "Taliyah",
+              "name": "Taliyah",
+              "splashCenteredImg": "cache/game/15.2/champion/Taliyah/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Taliyah/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Taliyah/loading.png",
+              "squareImg": "cache/game/15.2/champion/Taliyah/square.png"
+            },
+            {
+              "id": 43,
+              "alias": "Karma",
+              "name": "Karma",
+              "splashCenteredImg": "cache/game/15.2/champion/Karma/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Karma/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Karma/loading.png",
+              "squareImg": "cache/game/15.2/champion/Karma/square.png"
+            }
+          ],
+          "2": [
+            {
+              "id": 43,
+              "alias": "Karma",
+              "name": "Karma",
+              "splashCenteredImg": "cache/game/15.2/champion/Karma/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Karma/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Karma/loading.png",
+              "squareImg": "cache/game/15.2/champion/Karma/square.png"
+            },
+            {
+              "id": 163,
+              "alias": "Taliyah",
+              "name": "Taliyah",
+              "splashCenteredImg": "cache/game/15.2/champion/Taliyah/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Taliyah/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Taliyah/loading.png",
+              "squareImg": "cache/game/15.2/champion/Taliyah/square.png"
+            },
+            {
+              "id": 113,
+              "alias": "Sejuani",
+              "name": "Sejuani",
+              "splashCenteredImg": "cache/game/15.2/champion/Sejuani/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Sejuani/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Sejuani/loading.png",
+              "squareImg": "cache/game/15.2/champion/Sejuani/square.png"
+            },
+            {
+              "id": 27,
+              "alias": "Singed",
+              "name": "Singed",
+              "splashCenteredImg": "cache/game/15.2/champion/Singed/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Singed/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Singed/loading.png",
+              "squareImg": "cache/game/15.2/champion/Singed/square.png"
+            },
+            {
+              "id": 201,
+              "alias": "Braum",
+              "name": "Braum",
+              "splashCenteredImg": "cache/game/15.2/champion/Braum/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Braum/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Braum/loading.png",
+              "squareImg": "cache/game/15.2/champion/Braum/square.png"
+            }
+          ],
+          "3": [
+            {
+              "id": 54,
+              "alias": "Malphite",
+              "name": "Malphite",
+              "splashCenteredImg": "cache/game/15.2/champion/Malphite/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Malphite/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Malphite/loading.png",
+              "squareImg": "cache/game/15.2/champion/Malphite/square.png"
+            },
+            {
+              "id": 83,
+              "alias": "Yorick",
+              "name": "Yorick",
+              "splashCenteredImg": "cache/game/15.2/champion/Yorick/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Yorick/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Yorick/loading.png",
+              "squareImg": "cache/game/15.2/champion/Yorick/square.png"
+            },
+            {
+              "id": 13,
+              "alias": "Ryze",
+              "name": "Ryze",
+              "splashCenteredImg": "cache/game/15.2/champion/Ryze/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ryze/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ryze/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ryze/square.png"
+            },
+            {
+              "id": 91,
+              "alias": "Talon",
+              "name": "Talon",
+              "splashCenteredImg": "cache/game/15.2/champion/Talon/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Talon/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Talon/loading.png",
+              "squareImg": "cache/game/15.2/champion/Talon/square.png"
+            },
+            {
+              "id": 81,
+              "alias": "Ezreal",
+              "name": "Ezreal",
+              "splashCenteredImg": "cache/game/15.2/champion/Ezreal/splashCentered.jpg",
+              "splashImg": "cache/game/15.2/champion/Ezreal/splash.jpg",
+              "loadingImg": "cache/game/15.2/champion/Ezreal/loading.png",
+              "squareImg": "cache/game/15.2/champion/Ezreal/square.png"
+            }
+          ]
+        }
+      },
+      "metaData": {
+        "bestOfType": 1,
+        "patch": "15.5.1",
+        "performanceData": {
+          "updateDuration": 0
+        }
+      },
+      "timer": {
+        "phaseName": 1,
+        "phaseDuration": 60,
+        "timeRemaining": 4
+      }
+    }
+  }

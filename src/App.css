@@ -1,0 +1,35 @@
+.bar {
+  height: 30px;
+  margin: 5px 0;
+  color: black;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.blue { background-color: #3498db; }
+.red { background-color: #e74c3c; }
+
+.divider-right{
+  border-right: 1px solid white;
+
+}
+.divider-left{
+  border-left: 1px solid white;
+}
+
+img { 
+  width: 35px;
+  height: 35px;
+}
+
+.logo {
+  width: 90px !important;
+  height: 90px !important;
+}
+
+.bans {
+  width: 70px !important;
+  height: 70px !important;
+}
