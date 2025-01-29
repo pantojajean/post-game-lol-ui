@@ -2,6 +2,12 @@
 
 This is a React application that integrates with League Broadcast to display custom overlays during champ select and in-game.
 
+## showcase
+
+This application shows a post game informations for you using in your broadcast transmission.
+
+![image example](./docs/exampleinobs.png)
+
 ## Prerequisites
 
 - Node.js installed (version 16 or higher)
@@ -61,3 +67,4 @@ If you'd like to contribute to this project, feel free to open an issue or submi
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
