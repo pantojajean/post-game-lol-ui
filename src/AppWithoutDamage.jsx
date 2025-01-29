@@ -11,6 +11,7 @@ const AppWithoutDamage = () => {
 
     const baseUrl = 'localhost:5000'
     function transformarSegundosEmMinutosSegundos(segundos) {
+        segundos = Math.round(segundos);
         // Calcula os minutos e segundos
         const minutos = Math.floor(segundos / 60);
         const segundosRestantes = segundos % 60;
@@ -147,11 +148,11 @@ const AppWithoutDamage = () => {
                                             <div className='col-2 d-flex justify-content-start'>
                                                 <img src={`http://${baseUrl}/${player.champion.squareImg}`} />
                                             </div>
-                                            <div className='col-2 d-flex justify-content-center'>{player.totalGold}</div>
+                                            <div className='col-2 d-flex justify-content-center'>{formatarNumero(player.totalGold)}</div>
                                             <div className='col-2 d-flex justify-content-center'>{player.creepScore}</div>
                                             <div className='col-2 d-flex justify-content-center'>{player.kills}</div>
-                                            <div className='col-2 d-flex justify-content-center'>{player.assists}</div>
                                             <div className='col-2 d-flex justify-content-center'>{player.deaths}</div>
+                                            <div className='col-2 d-flex justify-content-center'>{player.assists}</div>
                                         </div>
                                     )
                                 })
@@ -173,11 +174,11 @@ const AppWithoutDamage = () => {
                                     return (
                                         <div className='flex-row mb-1 d-flex align-items-center justify-content-end'>
                                             <div className='col-2 d-flex justify-content-center'>{player.kills}</div>
-                                            <div className='col-2 d-flex justify-content-center'>{player.assists}</div>
                                             <div className='col-2 d-flex justify-content-center'>{player.deaths}</div>
+                                            <div className='col-2 d-flex justify-content-center'>{player.assists}</div>
                                             <div className='col-2 d-flex justify-content-center'>{player.creepScore}</div>
-                                            <div className='col-2 d-flex justify-content-center'>{player.totalGold}</div>
-                                            <div className='col-2 d-flex justify-content-start'>
+                                            <div className='col-2 d-flex justify-content-center'>{formatarNumero(player.totalGold)}</div>
+                                            <div className='col-2 d-flex justify-content-end'>
                                                 <img src={`http://${baseUrl}/${player.champion.squareImg}`} />
                                             </div>
                                         </div>
@@ -221,6 +222,8 @@ const AppWithoutDamage = () => {
 
             </div>
             <br></br>
+            <br></br>
+
             <div className='flex-row align-items-center d-flex justify-content-between'>
 
                 <div className='flex-col-5'>

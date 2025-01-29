@@ -33,3 +33,7 @@ img {
   width: 70px !important;
   height: 70px !important;
 }
+
+p, div { 
+  color: white;
+}

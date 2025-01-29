@@ -22,15 +22,15 @@ This is a React application that integrates with League Broadcast to display cus
 4. **Start the React App**
    - Navigate to the React project directory in your terminal and run the following command to start the development server:
 
-===
+```bash
 npm run dev
-===
+```
 
    - Or, if you're using Yarn:
 
-===
+```bash
 yarn dev
-===
+```
 
    - The React app will start and be available at `http://localhost:3000` (or another port if configured).
 
@@ -44,15 +44,15 @@ yarn dev
 
 Make sure all project dependencies are installed. To install the dependencies, run:
 
-===
+```bash
 npm install
-===
+```
 
 or
 
-===
+```bash
 yarn install
-===
+```
 
 ## Contributing
 
