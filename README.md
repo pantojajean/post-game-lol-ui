@@ -8,6 +8,11 @@ This application shows a post game informations for you using in your broadcast 
 
 ![image example](./docs/exampleinobs.png)
 
+## todo
+- [ x ] Made a prototype application.
+- [   ] Apply the project pattern on the code.
+- [   ] Get more usefull information.
+
 ## Prerequisites
 
 - Node.js installed (version 16 or higher)
