@@ -76,6 +76,10 @@ const AppWithoutDamage = () => {
                 .reduce((total, player) => total + player.assists, 0)
     }
     useEffect(() => {
+
+        console.info(typeof messages?.state.scoreboard.teams[0].teamIconUrl)
+        console.info(messages?.state.scoreboard.teams[0].teamIconUrl)
+
         // Conecta ao servidor WebSocket
         const ws = new WebSocket(`ws://${baseUrl}/ws/in`);
 
@@ -117,7 +121,9 @@ const AppWithoutDamage = () => {
         <div className="container p-5">
             <div className='row text-center '>
                 <div className='col-5 d-flex justify-content-start align-items-center'>
-                    <img className='logo' src={`http://${baseUrl}/${messages?.state.scoreboard.teams[0].teamIconUrl}`} />
+                    {messages?.state.scoreboard.teams[0].teamIconUrl == ''
+                        ? <></>
+                        : <img className='logo' src={`http://${baseUrl}/${messages?.state.scoreboard.teams[0].teamIconUrl}`} />}
                     <h1>{messages?.state.scoreboard.teams[0].teamName}</h1>
                 </div>
                 <div className='col-2 d-flex justify-content-center align-items-center'>
@@ -125,7 +131,9 @@ const AppWithoutDamage = () => {
                 </div>
                 <div className='col-5 d-flex justify-content-end align-items-center'>
                     <h1>{messages?.state.scoreboard.teams[1].teamName}</h1>
-                    <img className='logo' src={`http://${baseUrl}/${messages?.state.scoreboard.teams[1].teamIconUrl}`} />
+                    {messages?.state.scoreboard.teams[1].teamIconUrl == ''
+                        ? <></>
+                        : <img className='logo' src={`http://${baseUrl}/${messages?.state.scoreboard.teams[1].teamIconUrl}`} />}
                 </div>
             </div>
             <div className='row'>
