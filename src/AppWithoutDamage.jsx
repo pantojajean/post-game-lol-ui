@@ -9,7 +9,7 @@ const AppWithoutDamage = () => {
     const [messages, setMessages] = useState(ingameMock)
     const [bans, setBans] = useState(bansMock)
 
-    const baseUrl = 'localhost:5000'
+    const baseUrl = 'localhost:58869'
     function transformarSegundosEmMinutosSegundos(segundos) {
         segundos = Math.round(segundos);
         // Calcula os minutos e segundos

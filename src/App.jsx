@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 const App = () => {
     const [messages, setMessages] = useState(ingameMock)
     const [bans, setBans] = useState(bansMock)
-    const baseUrl = 'localhost:5000'
+    const baseUrl = 'localhost:58869'
     function transformarSegundosEmMinutosSegundos(segundos) {
         // Calcula os minutos e segundos
         const minutos = Math.floor(segundos / 60);
