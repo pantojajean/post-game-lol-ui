@@ -1,3 +1,7 @@
+#root{
+  background-color: rgb(117, 117, 117);
+}
+
 .bar {
   height: 30px;
   margin: 5px 0;
@@ -36,4 +40,9 @@ img {
 
 p, div { 
   color: white;
+}
+
+p > img {
+  width: 25px;
+  height: 25px;
 }
