@@ -30,11 +30,22 @@ export function teamKDA(team, state) {
             .reduce((total, player) => total + player.assists, 0)
 }
 
-export function query(key){
+export function query(key) {
     const searchParams = new URLSearchParams(window.location.search);
-    return searchParams.get(key)
+    return searchParams.get(key) === null ? 'localhost:58869' : searchParams.get(key)
 }
 
-export function getDragonsUrlImgs(drake){
+export function getDragonsUrlImgs(drake) {
     return `/cache/style/ingame/objectives/dragonpit/${drake}.png`
+}
+
+export function getMaxTotalDamage(damage) {
+    const data = damage
+
+    // Maior valor entre todos os jogadores de todas as equipes
+    const maxPlayerValue = Math.max(
+        ...data.teams.flatMap(team => team.players)
+    );
+   
+    return maxPlayerValue
 }

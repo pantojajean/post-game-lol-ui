@@ -5,11 +5,9 @@ import { formatNumber, getDragonsUrlImgs, query, teamKDA } from "../utils"
 const ObjectiveStatistics = ({ state, barons, atakhans }) => {
     const baseUrl = query('ws')
     // http://localhost:58869/cache/style/ingame/objectives/baronpit/baron.png
-    console.log(barons)
     return (
         <>
             <div className="col text-center team">
-                <br></br>
                 <p>{teamKDA(0, state)}</p>
                 <p>{formatNumber(state.scoreboard.teams[0].gold)}</p>
                 <p>{state.scoreboard.teams[0].towers}</p>
@@ -33,7 +31,6 @@ const ObjectiveStatistics = ({ state, barons, atakhans }) => {
                 </p>
             </div>
             <div className="col text-center">
-                <br></br>
                 <p>KDA</p>
                 <p>Gold</p>
                 <p>Towers</p>
@@ -42,7 +39,6 @@ const ObjectiveStatistics = ({ state, barons, atakhans }) => {
                 {/*<p>Feats Of Strength</p>*/}
             </div>
             <div className="col text-center team">
-                <br></br>
                 <p >{teamKDA(1, state)}</p>
                 <p >{formatNumber(state.scoreboard.teams[1].gold)}</p>
                 <p >{state.scoreboard.teams[1].towers}</p>

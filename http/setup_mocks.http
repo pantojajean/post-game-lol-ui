@@ -1,0 +1,7 @@
+### Envia POST para mock do champion select
+POST http://localhost:58869/api/championselect/mock/true?randomizationinterval=0
+Accept: */*
+
+### Envia POST para mock do ingame
+POST http://localhost:58869/api/ingame/mock/true
+Accept: */*

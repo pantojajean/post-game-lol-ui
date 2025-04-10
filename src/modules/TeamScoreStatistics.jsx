@@ -1,6 +1,7 @@
 import CustomImg from '../Components/CustomImg'
 import { formatNumber, query } from '../utils'
 
+
 const TeamScoreStatistics = ({ state }) => {
     const baseUrl = query('ws');
 
