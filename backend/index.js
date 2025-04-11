@@ -7,14 +7,16 @@ const path = require('path');
 const express = require('express')
 const axios = require('axios');
 const https = require('https');
+const cors = require('cors');
 
 const app = express()
 const port = 9721
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html')) ;
+    res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
 });
 
 app.get('/post-game/', async (req, res) => {
@@ -44,8 +46,8 @@ app.get('/post-game/', async (req, res) => {
         //res.json(response.data)
 
 
-        let blueside = []
-        let redside = []
+        let blueside = new Array(5).fill(0);
+        let redside = new Array(5).fill(0);
 
         response.data.teams[0].players.forEach((element, _index) => {
             blueside[_index] = element.stats.TOTAL_DAMAGE_DEALT_TO_CHAMPIONS

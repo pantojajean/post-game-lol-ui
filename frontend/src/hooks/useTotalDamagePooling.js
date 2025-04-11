@@ -14,14 +14,13 @@ export default function useTotalDamagePooling(setDamage) {
             previousGameIdRef.current = matchId;
 
             if (matchId) {
-              fetch(`http://localhost:9721/post-game/${matchId}`)
+              fetch(`http://localhost:9721/post-game`)
                 .then(res => res.json())
                 .then(setDamage)
                 .catch(console.error);
             }
           }
         })
-
         .catch(console.error);
     }, 1000);
 
