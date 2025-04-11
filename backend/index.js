@@ -17,8 +17,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html')) ;
 });
 
-app.get('/post-game/:id', async (req, res) => {
-    const gameId = req.params.id;
+app.get('/post-game/', async (req, res) => {
+    //const gameId = req.params.id;
     let data;
 
     try { data = await lockfile.read(config.client_path + '\\lockfile'); }
@@ -30,7 +30,7 @@ app.get('/post-game/:id', async (req, res) => {
 
     try {
         const response = await axios.get(
-            `${protocol}://127.0.0.1:${port}/lol-match-history/v1/games/${gameId}`,
+            `${protocol}://127.0.0.1:${port}/lol-end-of-game/v1/eog-stats-block`,
             {
                 headers: {
                     Authorization: `Basic ${basicAuth}`
@@ -47,10 +47,12 @@ app.get('/post-game/:id', async (req, res) => {
         let blueside = []
         let redside = []
 
-        response.data.participants.forEach(element => {
-            if (element.teamId === 100) blueside[element.participantId - 1] = element.stats.totalDamageDealtToChampions
-            if (element.teamId === 200) redside[element.participantId - 6] = element.stats.totalDamageDealtToChampions
+        response.data.teams[0].players.forEach((element, _index) => {
+            blueside[_index] = element.stats.TOTAL_DAMAGE_DEALT_TO_CHAMPIONS
+        });
 
+        response.data.teams[1].players.forEach((element, _index) => {
+            redside[_index] = element.stats.TOTAL_DAMAGE_DEALT_TO_CHAMPIONS
         });
 
         const matchData = {
