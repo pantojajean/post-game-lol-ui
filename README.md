@@ -1,73 +1,45 @@
-# SIMPLE POST GAME USING LEAGUE BROADCAST WEBSOCKET!
+# SIMPLE POST GAME USING LEAGUE BROADCAST WEBSOCKET AND LEAGUE CLIENT DATA
 
 This is a React application that integrates with League Broadcast to display custom overlays during champ select and in-game.
 
-## showcase
+## Showcase
 
-This application shows a post game informations for you using in your broadcast transmission.
+This application shows post-game information for use in your broadcast transmission.
 
-![image example](./docs/exampleinobs.png)
+![image example](./_docs/exampleinobs.png)
 
-## Manual Input: Total Damage Dealt per Player
 
-> ⚠️ **Warning**: This feature is **manual** and works as a **temporary workaround**. There is no automatic integration with the Riot API or League Broadcast for damage data.
+## How It Works: Total Damage Dealt per Player
 
-To display the **total damage dealt per player**, you must manually input the values in the following file:
+>
+> ⚠️ **Warning**: This feature now allows you to automatically retrieve the total damage dealt per player based on the `gameId` provided in the file `match-id.json`.
+>
 
-> public/data/total-damage.json
+### Steps to Set Up Automatic Damage Data:
 
-### Example format:
+1. **Provide the `gameId`**:  
+   You only need to provide the `gameId` in the file `public/data/match-id.json`. This is the ID of the match you want to fetch data for.
+   Example format for `match-id.json`:
+   ```json 
+   {
+      "id": "3085603741"
+    }
+    ```
 
-``` json  
-{
-  "teams": [
-    {
-      "players": [
-        25685,
-        15231,
-        8021,
-        45123,
-        14235
-      ]
-    },
-    {
-      "players": [
-        33123,
-        10000,
-        63121,
-        56123,
-        4234
-      ]
-    }
-  ]
-}
-```
+2. **Automatic Data Retrieval**:  
+   Once you have the `gameId` in `match-id.json`, the app will automatically retrieve the **total damage dealt per player** from the League Client, only need to set gameId.
+
+   ![image example](./_docs/loltotaldamage.png)
 
 ### Position Reference:
 
-- `teams[0]` = **Blue Side**
-- `teams[1]` = **Red Side**
-- `players[0]` = **Top**
-- `players[1]` = **Jungle**
-- `players[2]` = **Mid**
-- `players[3]` = **ADC**
-- `players[4]` = **Support**
-
-### How to input the data:
-
-1. Open the **League of Legends client** and go to your **Match History**.
-2. Select the match you want and navigate to the **Graphs** tab.
-3. Look at the **Damage Dealt to Champions** chart.
-4. Manually copy the damage values shown for each player.
-5. Insert those values in the correct order and positions inside the `total-damage.json` file.
-
-![image example](./docs/loltotaldamage.png)
-
-> 💡 This is a manual process and only intended as a temporary workaround until full automation becomes possible.
-
-Claro! Aqui está a seção complementar em inglês, explicando que os outros dados (KDA, gold, torres etc.) são automáticos e extraídos via WebSocket do League Broadcast:
-
----
+> - `teams[0]` = **Blue Side**
+> - `teams[1]` = **Red Side**
+> - `players[0]` = **Top**
+> - `players[1]` = **Jungle**
+> - `players[2]` = **Mid**
+> - `players[3]` = **ADC**
+> - `players[4]` = **Support**
 
 ## Automatic Data: KDA, Gold, Objectives, and Bans
 
@@ -75,82 +47,83 @@ Good news! Most of the in-game and post-game stats are handled **automatically**
 
 The following data is **automatically collected and displayed**:
 
-- **KDA** (Kills / Deaths / Assists)
-- **Gold earned**
-- **Towers destroyed**
-- **Drakes taken**
-- **Epic monsters (Grubs, Baron and Atakhan)**
-- **Champion bans (during champ select)**
-
+> - **KDA** (Kills / Deaths / Assists)
+> - **Gold earned**
+> - **Towers destroyed**
+> - **Drakes taken**
+> - **Epic monsters (Grubs, Baron and Atakhan)**
+> - **Champion bans (during champ select)**
+>
 > ✅ As long as League Broadcast is running and configured properly, this information will be fetched and updated in real time with no action required from the user.
-## todo
-- [ x ] Made a prototype application.
-- [ x ] Apply the project pattern on the code.
-- [   ] Get more usefull information.
+
+## TODO
+
+> - [x] Made a prototype application.
+> - [x] Apply the project pattern on the code.
+> - [ ] Get more useful information.
 
 ## Prerequisites
 
-- Node.js installed (version 16 or higher)
-- NPM or Yarn installed
-- League Broadcast installed and configured
+> - Node.js installed (version 16 or higher)
+> - NPM or Yarn installed
+> - League Broadcast installed and configured
+> - **League of Legends Client Path** (see below)
+
+## Configuration: `config.json`
+
+Before running the backend, you need to specify the path where your **League of Legends client** is located.
+
+Create or update the file `backend/config.json` with the following content:
+
+```json
+ {
+     "client_path": "C:\\Riot Games\\League of Legends"
+ }
+```
+
+ Replace `"C:\\Riot Games\\League of Legends"` with the correct path where the League of Legends client is installed on your system.
 
 ## How to Run the Project
 
-1. **Open League Broadcast**
-   - Make sure League Broadcast is installed and running correctly.
 
-2. **Enable Champ Select and In-Game**
-   - In League Broadcast, enable the `Champ Select` and `In-Game` options so the app can capture the necessary data.
+### 1. Install Dependencies (Frontend and Backend)
 
-3. **Disable Mock for Both Overlays**
-   - In League Broadcast, disable the `Mock` option for both overlays (`Champ Select` and `In-Game`) to ensure the app receives real game data.
+Make sure all project dependencies are installed in both the frontend and backend by running the following commands in both directories:
 
-4. **Start the React App**
-   - Navigate to the React project directory in your terminal and run the following command to start the development server:
+- **In the frontend directory**: `npm install` or `yarn install`
 
-```bash
-npm run dev
-```
 
-   - Or, if you're using Yarn:
+- **In the backend directory**: `npm install` or `yarn install`
 
-```bash
-yarn dev
-```
+### 2. Build the Frontend
 
+Once the dependencies are installed, build the frontend React app by running: `npm run build`
+
+This will create a production-ready build of the React app inside the `frontend/dist` directory.
+
+### 3. Start the Backend
+
+Once the frontend build is ready, start the backend by running: `node index.js`
+
+Ensure that the `client_path` is correctly set in `backend/config.json` before starting the backend.
 
 ## Accessing the Application
 
 To use the application properly, you **must provide the WebSocket (WS) address** of League Broadcast in the URL.
 
-### Example:
 
-> http://localhost:5173/?ws=localhost:58869
-
-- Replace `58869` with the actual port your **League Broadcast WebSocket** is using (default is usually 58869).
-- This allows the app to connect to League Broadcast and start receiving real-time game data automatically.
-
-> ⚠️ If you don't include the `?ws=` parameter, the app open this default url for league broadcast `localhost:58869` 
+> example: http://localhost:9721/?ws=localhost:58869
+>
+> Replace `58869` with the actual port your **League Broadcast WebSocket** is using (default is usually 58869).
+> This allows the app to connect to League Broadcast and start receiving real-time game data automatically.
+>
+>⚠️ If you don't include the `?ws=` parameter, the app will open this default URL for League Broadcast `localhost:58869`.
 
 ## Project Structure
 
-- `src/`: Contains the React application source code.
-- `public/`: Contains static files like `index.html`.
-- `package.json`: Contains project dependencies and scripts.
-
-## Dependencies
-
-Make sure all project dependencies are installed. To install the dependencies, run:
-
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn install
-```
+> - `src/`: Contains the React application source code.
+> - `public/`: Contains static files like `index.html`.
+> - `package.json`: Contains project dependencies and scripts.
 
 ## Contributing
 
@@ -159,4 +132,3 @@ If you'd like to contribute to this project, feel free to open an issue or submi
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-

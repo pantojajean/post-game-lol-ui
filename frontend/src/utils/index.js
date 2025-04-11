@@ -32,6 +32,7 @@ export function teamKDA(team, state) {
 
 export function query(key) {
     const searchParams = new URLSearchParams(window.location.search);
+    console.log(searchParams.get(key))
     return searchParams.get(key) === null ? 'localhost:58869' : searchParams.get(key)
 }
 
