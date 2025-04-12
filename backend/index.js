@@ -73,5 +73,6 @@ app.get('/post-game/', async (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`App de exemplo esta rodando na porta ${port}`)
+    console.log(`🚀 API is running at: \x1b[36mhttp://localhost:${port}\x1b[0m`);
+
 })
